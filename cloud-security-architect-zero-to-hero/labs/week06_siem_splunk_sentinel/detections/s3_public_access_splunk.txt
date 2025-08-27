@@ -1,0 +1,6 @@
+
+# Splunk SPL: Detect AWS S3 buckets with public access logs
+index=aws sourcetype="aws:cloudtrail"
+eventName=PutBucketAcl OR eventName=PutBucketPolicy
+| search requestParameters.*AllUsers*
+| stats count by userIdentity.arn, requestParameters.bucketName

@@ -1,0 +1,7 @@
+
+// Azure Sentinel KQL: Detect repeated failed SSH logins
+SecurityEvent
+| where EventID == 4625
+| where AccountType == "User"
+| summarize FailedLogins=count() by Account, IPAddress, bin(TimeGenerated, 5m)
+| where FailedLogins > 10

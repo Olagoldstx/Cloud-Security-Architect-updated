@@ -1,0 +1,9 @@
+boto3
+botocore
+azure-identity
+azure-mgmt-resource
+google-cloud-logging
+pandas
+requests
+pyyaml
+regex

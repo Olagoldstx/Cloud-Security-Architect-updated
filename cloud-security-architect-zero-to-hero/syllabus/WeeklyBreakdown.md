@@ -1,0 +1,17 @@
+# Weekly Breakdown
+- Week 1: Linux for Security + Hardening
+- Week 2: Python for Security Engineering
+- Week 3: AWS IAM/CloudTrail/GuardDuty
+- Week 4: Azure AD/RBAC/Defender/Sentinel
+- Week 5: GCP IAM/VPC SC/Chronicle
+- Week 6: SIEM (Splunk/ELK/Sentinel) detections
+- Week 7: Network Security (NACLs, SGs, WAF, VPN)
+- Week 8: Red Team Basics (Recon, Phishing, Exploitation)
+- Week 9: Incident Response (IR Playbooks, SOAR)
+- Week 10: Zero Trust Architecture
+- Week 11: Security Automation (Boto3, Azure SDK, GCP SDK)
+- Week 12: Cloud Forensics
+- Week 13: AI for Security (ML anomaly detection)
+- Week 14: Capstone (Red vs Blue)
+- Week 15: Resume/GitHub/Portfolio
+- Week 16: Final Presentation
